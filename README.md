@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/EricKrantz/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/EricKrantz/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to help you understand how many packages you
@@ -27,10 +29,10 @@ This is a basic example which shows you how to solve a common problem:
 library(libminer)
 
 lib_summary()
-#>                                                                      Library
-#> 1                                         C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/ERic.Krantz/AppData/Local/Temp/RtmpobcB9n/temp_libpath552ce4d7303
-#> 3                                             C:/Users/ERic.Krantz/R_Library
+#>                                                                       Library
+#> 1                                          C:/Program Files/R/R-4.3.1/library
+#> 2 C:/Users/ERic.Krantz/AppData/Local/Temp/RtmpobcB9n/temp_libpath552c72f672d9
+#> 3                                              C:/Users/ERic.Krantz/R_Library
 #>   n_packages
 #> 1         30
 #> 2          1
@@ -38,13 +40,13 @@ lib_summary()
 
 # Also can calculate sizes
 lib_summary(size = TRUE)
-#>                                                                      Library
-#> 1                                         C:/Program Files/R/R-4.3.1/library
-#> 2 C:/Users/ERic.Krantz/AppData/Local/Temp/RtmpobcB9n/temp_libpath552ce4d7303
-#> 3                                             C:/Users/ERic.Krantz/R_Library
+#>                                                                       Library
+#> 1                                          C:/Program Files/R/R-4.3.1/library
+#> 2 C:/Users/ERic.Krantz/AppData/Local/Temp/RtmpobcB9n/temp_libpath552c72f672d9
+#> 3                                              C:/Users/ERic.Krantz/R_Library
 #>   n_packages   lib_size
 #> 1         30   68858812
-#> 2          1      13023
+#> 2          1      16768
 #> 3        476 1457191452
 ```
 
