@@ -4,7 +4,11 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(size = FALSE)
+}
+\arguments{
+\item{size}{logical indicating whether or not to calculate library sizes.
+Default FALSE}
 }
 \value{
 A \code{data.frame} containing the count of packages in each of the user's
