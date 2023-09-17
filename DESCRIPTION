@@ -1,5 +1,5 @@
 Package: libminer
-Title: Explore Your R Libraries.
+Title: Explore Your R Libraries
 Version: 0.0.0.9000
 Authors@R: 
     person("Eric", "Krantz", , 
